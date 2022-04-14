@@ -1,0 +1,28 @@
+.gal_container{
+    .gal_card{
+        border: 1px solid #000;
+        border-radius: 10px;
+        width: 300px;
+        padding: 20px;
+
+        img{
+            width: 100%;
+        }
+        .title{
+            padding: 10px 0;
+            font-weight: 700;
+        }
+        .likes{
+            margin-bottom: 10px;
+            color: #777777;
+        }
+        .writer{
+            color: #777777;
+            span{
+                &:last-child{
+                    margin-left: 10px;
+                }
+            }
+        }
+    }
+}

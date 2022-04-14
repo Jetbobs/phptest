@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <?php
+        $forum = [
+            [
+                "idx" = > 1,
+                "title" = > "제목만 보여주기!",
+                "writer" = > "아임웹",
+                "date" = > "2017-11-20",
+                "likes" = > 0
+            ],
+            [
+                "idx" = > 2,
+                "title" = > "이번엔 가즈아아아아아아아!",
+                "writer" = > "아임웹",
+                "date" = > :"2017-11-20",
+                "likes" = > 0
+            ],
+            [
+                "idx" = > 3,
+                "title" = > "응원합니다!",
+                "writer" = > "아임웹",
+                "date" = > "2017-11-20",
+                "likes" = > 0
+            ],
+            [
+                "idx" = > 4,
+                "title" = > "탭 메뉴 이미지",
+                "writer" = > "아임웹",
+                "date" = > "2017-12-06",
+                "likes" = > 0
+            ],
+            ,[
+                "idx" = > 5,
+                "title" = > "진짜로 갑니다~~",
+                "writer" = > "아임웹",
+                "date" = > "2018-04-17",
+                "likes" = > 0
+            ]
+        ]
+        foreach($forum as $row1){
+            ?>
+                <table>
+            <colgroup>
+                <col width="5%">
+                <col width="60%">
+                <col width="10%">
+                <col width="15%">
+                <col width="10%">
+            </colgroup>
+            <thead>
+                <th class="table_num">No</th>
+                <th class="table_title">제목</th>
+                <th class="table_writer">글쓴이</th>
+                <th class="table_time">작성시간</th>
+                <th class="table_likes">좋아요</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="td_num"><?php echo($row1["idx"]);?></td>
+                    <td class="td_title"><?php echo($row1["title"]);?></td>
+                    <td class="td_writer"><?php echo($row1["writer"]);?></td>
+                    <td class="td_time"><?php echo($row1["date"]);?></td>
+                    <td class="td_likes"><?php echo($row1["likes"]);?></td>
+                </tr>
+                <tr>
+                    <td class="td_num"><?php echo($row1["idx"]);?></td>
+                    <td class="td_title"><?php echo($row1["title"]);?></td>
+                    <td class="td_writer"><?php echo($row1["writer"]);?></td>
+                    <td class="td_time"><?php echo($row1["date"]);?></td>
+                    <td class="td_likes"><?php echo($row1["likes"]);?></td>
+                </tr>
+                <tr>
+                    <td class="td_num"><?php echo($row1["idx"]);?></td>
+                    <td class="td_title"><?php echo($row1["title"]);?></td>
+                    <td class="td_writer"><?php echo($row1["writer"]);?></td>
+                    <td class="td_time"><?php echo($row1["date"]);?></td>
+                    <td class="td_likes"><?php echo($row1["likes"]);?></td>
+                </tr>
+                <tr>
+                    <td class="td_num"><?php echo($row1["idx"]);?></td>
+                    <td class="td_title"><?php echo($row1["title"]);?></td>
+                    <td class="td_writer"><?php echo($row1["writer"]);?></td>
+                    <td class="td_time"><?php echo($row1["date"]);?></td>
+                    <td class="td_likes"><?php echo($row1["likes"]);?></td>
+                </tr>
+                <tr>
+                    <td class="td_num"><?php echo($row1["idx"]);?></td>
+                    <td class="td_title"><?php echo($row1["title"]);?></td>
+                    <td class="td_writer"><?php echo($row1["writer"]);?></td>
+                    <td class="td_time"><?php echo($row1["date"]);?></td>
+                    <td class="td_likes"><?php echo($row1["likes"]);?></td>
+                </tr>
+            </tbody>
+        </table>
+            <?php
+        }
+    ?>
+    <div class="gal_container">
+        <div class="gal_card">
+            <img src="/gallery/gallery/img1.png" alt="">
+            <div class="title">공모전 참가</div>
+            <div class="likes">0</div>
+            <div class="writer"><span>아임웹</span><span>2022-03-02</span></div>
+        </div>
+    </div>
+    </main>
+</body>
+</html>

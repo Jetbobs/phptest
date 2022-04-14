@@ -1,0 +1,76 @@
+table {
+  text-align: center;
+  width: 100%;
+  border-collapse: collapse;
+  line-height: 2;
+}
+
+table thead th {
+  font-weight: 700;
+  font-size: 20px;
+  border-top: 2px solid #505050;
+  border-bottom: 2px solid #ddd;
+}
+
+table tbody tr td {
+  border-bottom: 2px solid #ddd;
+}
+
+table tbody tr td.td_writer {
+  color: #c4c4c4;
+}
+
+table tbody tr td.td_time {
+  color: #c4c4c4;
+}
+
+table tbody tr td.td_likes {
+  color: #c4c4c4;
+}
+
+ul {
+  list-style: none;
+}
+
+ula {
+  text-decoration: none;
+}
+
+.pager {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.gal_container .gal_card {
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+}
+
+.gal_container .gal_card img {
+  width: 100%;
+}
+
+.gal_container .gal_card .title {
+  padding: 10px 0;
+  font-weight: 700;
+}
+
+.gal_container .gal_card .likes {
+  margin-bottom: 10px;
+  color: #777777;
+}
+
+.gal_container .gal_card .writer {
+  color: #777777;
+}
+
+.gal_container .gal_card .writer span:last-child {
+  margin-left: 10px;
+}
+/*# sourceMappingURL=style.css.map */

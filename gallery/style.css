@@ -1,0 +1,29 @@
+.gal_container .gal_card {
+  border: 1px solid #000;
+  border-radius: 10px;
+  width: 300px;
+  padding: 20px;
+}
+
+.gal_container .gal_card img {
+  width: 100%;
+}
+
+.gal_container .gal_card .title {
+  padding: 10px 0;
+  font-weight: 700;
+}
+
+.gal_container .gal_card .likes {
+  margin-bottom: 10px;
+  color: #777777;
+}
+
+.gal_container .gal_card .writer {
+  color: #777777;
+}
+
+.gal_container .gal_card .writer span:last-child {
+  margin-left: 10px;
+}
+/*# sourceMappingURL=style.css.map */
