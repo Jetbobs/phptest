@@ -7,10 +7,12 @@
             <?php
             foreach($gal as $galb){
             ?>
-            <img src="<?php echo($galb["img"]); ?>" alt="">
-            <div class="title"><?php echo($galb["title"]); ?></div>
-            <div class="likes"><?php echo($galb["likes"]); ?></div>
-            <div class="writer"><?php echo($galb["date"]); ?></div>
+            <div class="card">
+                <img src="<?php echo($galb["img"]); ?>" alt="">
+                <div class="title"><?php echo($galb["title"]); ?></div>
+                <div class="likes"><?php echo($galb["likes"]); ?></div>
+                <div class="writer"><?php echo($galb["date"]); ?></div>
+            </div>
             <?php
         }
         ?>

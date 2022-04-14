@@ -1,5 +1,9 @@
 .gal_container{
     .gal_card{
+        display: grid;
+        grid-template-columns: repeat(4, auto);
+        grid-gap: 10px;
+        .card{
         border: 1px solid #000;
         border-radius: 10px;
         width: 300px;
@@ -24,5 +28,6 @@
                 }
             }
         }
+    }
     }
 }

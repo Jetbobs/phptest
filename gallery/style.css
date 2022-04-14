@@ -1,29 +1,37 @@
 .gal_container .gal_card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (auto)[4];
+      grid-template-columns: repeat(4, auto);
+  grid-gap: 10px;
+}
+
+.gal_container .gal_card .card {
   border: 1px solid #000;
   border-radius: 10px;
   width: 300px;
   padding: 20px;
 }
 
-.gal_container .gal_card img {
+.gal_container .gal_card .card img {
   width: 100%;
 }
 
-.gal_container .gal_card .title {
+.gal_container .gal_card .card .title {
   padding: 10px 0;
   font-weight: 700;
 }
 
-.gal_container .gal_card .likes {
+.gal_container .gal_card .card .likes {
   margin-bottom: 10px;
   color: #777777;
 }
 
-.gal_container .gal_card .writer {
+.gal_container .gal_card .card .writer {
   color: #777777;
 }
 
-.gal_container .gal_card .writer span:last-child {
+.gal_container .gal_card .card .writer span:last-child {
   margin-left: 10px;
 }
 /*# sourceMappingURL=style.css.map */
