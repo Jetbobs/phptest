@@ -45,15 +45,16 @@
     </ol>
     <a href="create.php">create</a>
     <?php if(isset($_GET['id'])){?>
-    <a href="update.php">update</a>
+    <a href="update.php?id=<?=$_GET['id']?>">update</a>
     <?php } ?>
-    <form action="create_process.php" method="post">
+    <form action="update_process.php" method="post">
+        <input type="hidden" name="old_title" value="<?php echo $_GET['id']; ?>">
         <p>
-            <input type="text" name="title" placeholder="Title">
+            <input type="text" name="title" placeholder="Title" value="<?php print_title(); ?>">
         </p>
         <p>
             <textarea name="description" placeholder="Description">
-
+                <?php print_desc(); ?>
             </textarea>
         </p>
         <p>
