@@ -11,7 +11,8 @@ VALUE(
 )
 ";
 
-mysqli_query($conn, $sql);
+$result = mysqli_query($conn, $sql);
+if($result === false){}
 echo mysqli_error($conn);
-
+};
 ?>
